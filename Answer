@@ -1,0 +1,17 @@
+* Factory design pattern is used.
+(a) * Create Car class and extends Vehicle. Overide the interface methods
+    * Create Plane class and extends Vehicle. Overide the interface methods
+    * Create a class called VehicleFactory and add a method which 
+      accept parameter as String for vehicleType("Car" or "Plane") and returns
+      Vehicle. 
+(b) Prototype design pattern can be used
+    * Create a abstract class("VehicleAbstract") which implements Cloneable and Vehicle
+    * Add a method which returns Object by calling super.clone()
+    * Create Car class and extends VehicleAbstract. Overide all interface methods.
+      Call them from the constructor. 
+    * Create Plane class and extends VehicleAbstract. Overide all interface methods.
+      Call them from the constructor. 
+    * Create another class called ("VehicleStore"). Using static block add Car and Plane
+      objects to a Static HashMap. 
+    * Add a static method input parameter as String and base on string value 
+      return Vehicle or Car. 
