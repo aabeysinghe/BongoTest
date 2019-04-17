@@ -1,3 +1,4 @@
+* isAnagram function is in Anagram class
 * Factory design pattern is used.
 (a) * Create Car class and extends Vehicle. Overide the interface methods
     * Create Plane class and extends Vehicle. Overide the interface methods
@@ -15,3 +16,6 @@
       objects to a Static HashMap. 
     * Add a static method input parameter as String and base on string value 
       return Vehicle or Car. 
+==========================================
+ In the Media player app If Url field is empty it will play the song under row folder
+ or if the url is provided it will play the mp3 in URL.
